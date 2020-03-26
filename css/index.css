@@ -25,12 +25,12 @@
 
 #index-main-container {
     min-height: 70vh;
-    background: rgba(35, 35, 35, 0.3);
+    background: rgba(35, 35, 35, 0.5);
     padding: 0 15px;
 }
 
 #index-headline-row {
-    padding-top: 50px;
+    padding-top: 22px;
 }
 
 #index-img-logo {
