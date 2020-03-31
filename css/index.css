@@ -25,6 +25,7 @@
 
 #index-main-container {
     min-height: 70vh;
+    height: auto;
     background: rgba(35, 35, 35, 0.5);
     padding: 0 15px;
 }
