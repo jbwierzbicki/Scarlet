@@ -48,6 +48,9 @@
 
 #index-button-group {
   font-size: 0;
+  margin: auto;
+  text-align:center;
+  align-content:center;
 }
 
 #index-services-button {
@@ -110,3 +113,41 @@
         margin-top: 50px;
     }
   }
+
+  /* Desktop Media Queries */
+  @media only screen and (min-width: 768px) {
+  #rwTopnav {
+    padding: 0 0 0 24px;
+  }
+  .row {
+    margin: 0;
+  }
+  #index-img-logo {
+    width: 240px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    
+  }
+
+  #index-main-container {
+    padding: 0 5.2%;
+  }
+  #index-headline-row {
+    padding-top: 100px;
+  }
+  #index-col-logo {
+    padding: 0;
+    text-align: right;
+    position: relative;
+  }
+  #index-col-headline {
+    padding: 0 0 0 40px;
+  }
+  #index-button-group {
+    padding-top: 50px;
+  }
+}
