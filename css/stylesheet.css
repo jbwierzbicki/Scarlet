@@ -14,3 +14,8 @@ p {
 button {
     font-family: muli;
 }
+
+/* BootStrap Formatting */
+.text-uppercase {
+    text-transform: uppercase;
+}
