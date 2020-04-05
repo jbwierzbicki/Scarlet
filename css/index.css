@@ -40,6 +40,7 @@
 
 #index-headline-h1 {
   color: white;
+  margin-bottom: 15px;
 }
 
 #index-headline-p {
@@ -48,7 +49,7 @@
 
 #index-button-group {
   font-size: 0;
-  margin: auto;
+  margin: 15px auto 0 auto;
   text-align:center;
   align-content:center;
 }
@@ -138,6 +139,8 @@
   }
   #index-headline-row {
     padding-top: 100px;
+    max-width: 865px;
+    margin: auto;
   }
   #index-col-logo {
     padding: 0;
@@ -146,6 +149,9 @@
   }
   #index-col-headline {
     padding: 0 0 0 40px;
+  }
+  #index-headline-h1 {
+    font-size: 40px;
   }
   #index-button-group {
     padding-top: 50px;
