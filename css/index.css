@@ -28,6 +28,7 @@
     height: auto;
     background: rgba(35, 35, 35, 0.5);
     padding: 0 15px;
+    width: 100%;
 }
 
 #index-headline-row {
@@ -121,21 +122,20 @@
     margin: 0;
   }
   #index-img-logo {
-    width: 240px;
+    width: 229px;
     height: auto;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
     
   }
 
   #index-main-container {
+    display: table;
+  }
+  #index-main-container2 {
     padding: 0 5.2%;
+    display: table-cell;
+  vertical-align: middle;
   }
   #index-headline-row {
-    padding-top: 100px;
     max-width: 865px;
     margin: auto;
   }
