@@ -2,6 +2,22 @@
     margin: 0;
 }
 
+#index-cornerquote-button {
+  background: white;
+  width: 89px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+#index-cornerquote-text {
+  text-align: center;
+  font-size: 16px;
+  color: #C4231C;
+  font-weight: bold;
+  padding: 15px;
+}
+
 #index-main {
     background: url("../images/RagingWolfSunset.png");
     background-repeat: no-repeat;
