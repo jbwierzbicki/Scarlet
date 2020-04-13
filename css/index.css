@@ -4,7 +4,7 @@
 
 #index-cornerquote-button {
   background: white;
-  width: 89px;
+  width: 99px;
   position: absolute;
   right: 0;
   top: 0;
@@ -15,7 +15,7 @@
   font-size: 16px;
   color: #C4231C;
   font-weight: bold;
-  padding: 15px;
+  padding: 20px;
 }
 
 #index-main {
