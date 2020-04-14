@@ -4,13 +4,11 @@
 
 #index-main {
     background: url("../images/RagingWolfSunset.png");
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-position: center;
     margin: 0;
     background-attachment: fixed;
     max-width: 100%;
+    background-size: auto 100%;
 }
 
 #index-main-container {
