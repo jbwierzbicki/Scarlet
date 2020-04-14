@@ -2,22 +2,6 @@
     margin: 0;
 }
 
-#index-cornerquote-button {
-  background: white;
-  width: 99px;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-#index-cornerquote-text {
-  text-align: center;
-  font-size: 16px;
-  color: #C4231C;
-  font-weight: bold;
-  padding: 20px;
-}
-
 #index-main {
     background: url("../images/RagingWolfSunset.png");
     background-repeat: no-repeat;
@@ -31,18 +15,16 @@
     height: auto;
     background: rgba(35, 35, 35, 0.5);
     width: 100%;
+    display: table;
 }
 
-#index-main-container {
-  display: table;
-}
-#index-main-container2 {
-  display: table-cell;
-vertical-align: middle;
+#index-main-subcontainer {
+    display: table-cell;
+    vertical-align: middle;
 }
 
 #index-col-logo {
-  margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 #index-img-logo {
@@ -50,71 +32,71 @@ vertical-align: middle;
 }
 
 #index-headline-h1 {
-  color: white;
-  margin-bottom: 15px;
+    color: white;
+    margin-bottom: 15px;
 }
 
 #index-headline-p {
-  color: white;
+    color: white;
 }
 
 #index-button-group {
-  font-size: 0;
-  margin: 25px auto 0 auto;
-  text-align:center;
-  align-content:center;
+    font-size: 0;
+    margin: 25px auto 0 auto;
+    text-align: center;
+    align-content: center;
 }
 
 #index-services-button {
-  color: white;
-  background: #231F20;
-  border: none;
-  border-radius: 6px 0px 0px 6px;
-  height: 38px;
-  font-size: 16px;
-  padding: 0 25px;
+    color: white;
+    background: #231F20;
+    border: none;
+    border-radius: 6px 0px 0px 6px;
+    height: 38px;
+    font-size: 16px;
+    padding: 0 25px;
 }
 
 #index-quote-button {
-  color: white;
-  background: #C4231C;
-  border: none;
-  border-radius: 0px 6px 6px 0px;
-  height: 38px;
-  font-size: 16px;
-  padding: 0 25px;
+    color: white;
+    background: #C4231C;
+    border: none;
+    border-radius: 0px 6px 6px 0px;
+    height: 38px;
+    font-size: 16px;
+    padding: 0 25px;
 }
 
-  /* Desktop Media Queries */
-  @media only screen and (min-width: 992px) {
-  .row {
-    margin: 0;
-  }
-  #index-img-logo {
-    width: 240px;
-    height: auto;
-    
-  }
-#index-main-container2 {
-  padding: 0 5.2%;
-}
 
-  #index-headline-row {
-    max-width: 865px;
-    margin: auto;
-  }
-  #index-col-logo {
-    padding: 0;
-    text-align: right;
-    position: relative;
-  }
-  #index-col-headline {
-    padding: 0 0 0 40px;
-  }
-  #index-headline-h1 {
-    font-size: 40px;
-  }
-  #index-button-group {
-    margin: 35px auto 0 auto;
-  }
+/* Desktop Media Queries */
+
+@media only screen and (min-width: 992px) {
+    .row {
+        margin: 0;
+    }
+    #index-main-subcontainer {
+        padding: 0 5.2%;
+    }
+    #index-headline-row {
+        max-width: 865px;
+        margin: auto;
+    }
+    #index-col-logo {
+        padding: 0;
+        text-align: right;
+        position: relative;
+    }
+    #index-img-logo {
+        width: 240px;
+        height: auto;
+    }
+    #index-col-headline {
+        padding: 0 0 0 40px;
+    }
+    #index-headline-h1 {
+        font-size: 40px;
+    }
+    #index-button-group {
+        margin: 35px auto 0 auto;
+    }
 }
