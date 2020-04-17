@@ -22,9 +22,10 @@
     display: table;
 }
 
-#index-main-subcontainer {
+#index-main-subcontainer1 {
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: top;
+    padding-top: 150px;
 }
 
 #index-col-logo {
