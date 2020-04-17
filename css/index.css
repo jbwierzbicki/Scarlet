@@ -22,11 +22,80 @@
     display: table;
 }
 
+.index-main-container-row {
+    display: table-row;
+}
+
 #index-main-subcontainer1 {
     display: table-cell;
-    vertical-align: top;
-    padding-top: 150px;
+    vertical-align: bottom;
+    height: 50vh;
 }
+
+#index-main-subcontainer2 {
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+#index-main-container-bg {
+    background: #26272B;
+border-radius: 6px 6px 0px 0px;
+display: block;
+max-width: 865px;
+margin: 0 auto;
+text-align: center;
+}
+
+#index-form-h2 {
+    font-size: 25px;
+    color: white;
+    margin: 15px auto 10px auto;
+}
+
+#index-form-p {
+    font-size: 16px;
+    color: #CECECE;
+    margin-bottom: 10px;
+}
+
+.search {
+    height: auto;
+}
+
+#index-form {
+    width: 100%;
+    margin: 0 auto 15px auto;
+    max-width: 460px;
+}
+
+.search input, .search button {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  .search input {
+    border-radius: 6px 0 0 6px;
+    width: 100%;
+  }
+
+  #index-form-input {
+    flex: 1;
+}
+
+  #index-form-submit-btn {
+  }
+
+  
+  .search button {
+    border-radius: 0 6px 6px 0;
+    margin-left: -5px;
+    color: white;
+    background-color:black;
+    cursor: pointer;
+    width: 55px;
+  }
 
 #index-col-logo {
     margin-bottom: 15px;
