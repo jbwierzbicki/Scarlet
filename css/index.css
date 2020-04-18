@@ -44,7 +44,7 @@
     
 border-radius: 6px;
 display: block;
-max-width: 692px;
+max-width: 530px;
 margin: 0 auto 30px auto;
 text-align: center;
 }
@@ -52,7 +52,7 @@ text-align: center;
 #index-form-h2 {
     font-size: 21px;
     color: white;
-    margin: 15px auto 7px auto;
+    margin: 25px auto 7px auto;
 }
 
 #index-form-p {
@@ -68,7 +68,7 @@ text-align: center;
 
 #index-form {
     width: 100%;
-    margin: 0 auto 20px auto;
+    margin: 0 auto 30px auto;
     max-width: 390px;
 }
 
