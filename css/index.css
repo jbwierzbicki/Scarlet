@@ -68,7 +68,7 @@
     font-size: 16px;
     height: 40px;
     margin-right: -1px;
-    padding: 0 25px
+    width: 145px;
 }
 
 #index-quote-button {
@@ -79,7 +79,7 @@
     font-size: 16px;
     height: 40px;
     margin-left: -1px;
-    padding: 0 25px
+    width: 145px;
 }
 
 #index-main-container-row2 {
