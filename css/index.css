@@ -40,7 +40,12 @@
 }
 
 #index-img-logo {
-    height: 100px
+    height: 100px;
+    box-shadow: 4px 4px 20px rgba(0,0,0,0.42);
+}
+
+#index-col-headline {
+    text-shadow: 4px 4px 5px rgba(0,0,0,0.42);
 }
 
 #index-headline-h1 {
