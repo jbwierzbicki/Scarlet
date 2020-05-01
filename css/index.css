@@ -15,7 +15,7 @@
 }
 
 #index-main-container {
-    background: rgba(35, 35, 35, 0.6);
+    background: rgba(35, 35, 35, 0.4);
     display: table;
     height: 80vh;
     min-height: 700px;
