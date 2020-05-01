@@ -1,8 +1,8 @@
-#index-body {
+#services-body {
     margin: 0
 }
 
-#index-main {
+#services-main {
     -moz-background-size: cover;
     -o-background-size: cover;
     -webkit-background-size: cover;
@@ -14,7 +14,7 @@
     max-width: 100%
 }
 
-#index-main-container {
+#services-main-container {
     background: rgba(35, 35, 35, 0.6);
     display: table;
     height: 80vh;
@@ -22,50 +22,61 @@
     width: 100%
 }
 
-.index-main-container-row {
+.services-main-container-row {
     display: table-row
 }
 
-#index-main-container-row1 {
+#services-main-container-row1 {
     height: 72%
 }
 
-#index-main-container-cell1 {
+#services-main-container-cell1 {
     display: table-cell;
     vertical-align: middle
 }
 
-#index-col-logo {
+#services-col-logo {
     margin-bottom: 15px
 }
 
-#index-img-logo {
+#services-img-logo {
     height: 100px;
     box-shadow: 4px 4px 20px rgba(0,0,0,0.42);
 }
 
-#index-col-headline {
+#services-col-headline {
     text-shadow: 4px 4px 5px rgba(0,0,0,0.42);
 }
 
-#index-headline-h1 {
+#services-headline-h1 {
     color: #FFF;
     margin-bottom: 12px;
 }
 
-#index-headline-p {
+#services-headline-p {
     font-size: 16px;
     color: #FFF
 }
 
-#index-button-group {
+#services-headline-ul {
+    font-family: Muli;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 29px;
+color: #FFFFFF;
+list-style-type: none;
+padding: 0;
+}
+
+#services-button-group {
     align-content: center;
     font-size: 0;
     margin: 25px auto 0;
     text-align: center
 }
 
-#index-services-button {
+#services-services-button {
     background: #231F20;
     border: none;
     border-radius: 6px 0 0 6px;
@@ -76,7 +87,7 @@
     width: 145px;
 }
 
-#index-quote-button {
+#services-quote-button {
     background: #C4231C;
     border: none;
     border-radius: 0 6px 6px 0;
@@ -87,17 +98,17 @@
     width: 145px;
 }
 
-#index-main-container-row2 {
+#services-main-container-row2 {
     height: 28%
 }
 
-#index-main-container-cell2 {
+#services-main-container-cell2 {
     display: table-cell;
     padding: 0 15px;
     vertical-align: bottom
 }
 
-#index-main-container-bg {
+#services-main-container-bg {
     background: rgba(32, 29, 30, 0.9);
     border-radius: 6px 6px 0 0;
     display: block;
@@ -106,13 +117,13 @@
     text-align: center
 }
 
-#index-form-h2 {
+#services-form-h2 {
     color: #FFF;
     font-size: 21px;
     margin: 25px auto 7px
 }
 
-#index-form-p {
+#services-form-p {
     color: #CECECE;
     font-size: 14px;
     margin: 0 auto 15px;
@@ -123,13 +134,13 @@
     height: auto
 }
 
-#index-form {
+#services-form {
     margin: 0 auto 32px;
     max-width: 390px;
     width: 100%
 }
 
-#index-form-input {
+#services-form-input {
     flex: 1
 }
 
@@ -160,29 +171,29 @@
     .row {
         margin: 0
     }
-    #index-main-container-cell1 {
+    #services-main-container-cell1 {
         padding: 0 5.2%
     }
-    #index-headline-row {
+    #services-headline-row {
         margin: auto;
         max-width: 865px
     }
-    #index-col-logo {
+    #services-col-logo {
         padding: 0;
         position: relative;
         text-align: right
     }
-    #index-img-logo {
+    #services-img-logo {
         height: auto;
         width: 240px
     }
-    #index-col-headline {
+    #services-col-headline {
         padding: 0 0 0 40px
     }
-    #index-headline-h1 {
+    #services-headline-h1 {
         font-size: 40px
     }
-    #index-button-group {
+    #services-button-group {
         margin: 35px auto 0
     }
 }
