@@ -6,9 +6,9 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     -webkit-background-size: cover;
-    background: url(../images/RagingWolfSunset.jpg);
+    background: url(../images/services-expedited-ground-bg.jpg);
     background-attachment: scroll;
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
     margin: -2px 0 -2px 0;
     max-width: 100%
@@ -39,13 +39,29 @@
     margin-bottom: 15px
 }
 
-#services-img-logo {
+#services-img-icon {
     height: 100px;
-    box-shadow: 4px 4px 20px rgba(0,0,0,0.42);
+    width: 100px;
+    background: url(../images/services-expedited-ground-icon.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.6);
+border-radius: 500px;
 }
 
 #services-col-headline {
-    text-shadow: 4px 4px 5px rgba(0,0,0,0.42);
+
+}
+
+#services-headline-h5 {
+    font-family: Muli;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+text-transform: uppercase;
+color: #FFF200;
+margin-bottom: 10px
 }
 
 #services-headline-h1 {
@@ -76,7 +92,7 @@ padding: 0;
     text-align: center
 }
 
-#services-services-button {
+#services-contact-button {
     background: #231F20;
     border: none;
     border-radius: 6px 0 0 6px;
@@ -183,8 +199,8 @@ padding: 0;
         position: relative;
         text-align: right
     }
-    #services-img-logo {
-        height: auto;
+    #services-img-icon {
+        height: 240px;
         width: 240px
     }
     #services-col-headline {
